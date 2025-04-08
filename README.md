@@ -101,9 +101,11 @@ These files contain:
 
 A post-processing step compares the MPC result with a local computation to verify **correctness**.
 
-### Structure 
-Note that inputs and outputs folder are not present in the project, but here are shown so to facilitate the comprension of files.
+### 📂 Project Structure 
 
+Note that `inputs` and `outputs` folders are not present initially in the project, but are shown here to facilitate understanding of file organization.
+
+```
 ├── circuits/
 │   ├── max_4_num.json
 │   ├── max_8_num.json
@@ -127,6 +129,7 @@ Note that inputs and outputs folder are not present in the project, but here are
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ### 🧱 Create New Circuit
 
