@@ -6,6 +6,8 @@ This project implements a secure **Multi-Party Computation (MPC)** protocol usin
 
 This implementation demonstrates a secure **Multi-Party Computation (MPC)** protocol using **Yao's Garbled Circuits** to calculate the **maximum value** between two sets of integers provided by **Alice** and **Bob**.
 
+Check **Report.pdf** to see an extensive explication of this project.
+
 ### 🐍 Python Version
 
 Tested with **Python 3.10.1**
@@ -118,6 +120,7 @@ Note that `inputs` and `outputs` folders are not present initially in the projec
 │   ├── output_alice_bob.json
 │   ├── alice_ot_side.txt
 │   └── bob_ot_side.txt
+├── Report.pdf
 ├── main.py
 ├── alice.py
 ├── bob.py
