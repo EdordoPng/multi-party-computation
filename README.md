@@ -26,6 +26,18 @@ Alternatively, use:
 pip3 install --user pyzmq cryptography sympy
 ```
 
+### 📦 Dependencies
+
+The dependencies include:
+* **pyzmq**: for the communication socket
+* **cryptography**: for the operations crittografiche
+* **sympy**: for the logica booleana and the generation of circuits
+* **base64io**: for the serialization of data
+* **json5**: for the management of file JSON
+* **itertools**: for the generation of truth tables
+* **collections**: for handling data structures
+
+
 #### 2. Prepare Input Files
 
 Modify the `inputs/Alice.txt` and `inputs/Bob.txt` files with decimal integers (0-15). Inputs outside this range will be ignored. Missing values will be padded with 0.
@@ -127,4 +139,6 @@ python createCircuitExtended.py
 Make sure to adjust the top of the file to customize:
 - `NUM_INPUT_TO_CONFRONT`
 - `NAME_OUTPUT_CIRCUIT`
+
+
 
